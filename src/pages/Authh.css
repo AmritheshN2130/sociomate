@@ -1,0 +1,58 @@
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../assets/nature-bg.jpg') no-repeat center center/cover;
+  backdrop-filter: blur(2px);
+}
+
+.auth-box {
+  background: rgba(11, 14, 63, 0.15);
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  color: rgb(6, 6, 6);
+  backdrop-filter: blur(10px);
+}
+
+.auth-form input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  font-size: 1rem;
+}
+
+.animated-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: linear-gradient(135deg, #00c9ff, #92fe9d);
+  border: none;
+  border-radius: 12px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.animated-btn:hover {
+  transform: scale(1.05);
+}
+
+.auth-form p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.auth-form p span {
+  color: #00c9ff;
+  cursor: pointer;
+  text-decoration: underline;
+}

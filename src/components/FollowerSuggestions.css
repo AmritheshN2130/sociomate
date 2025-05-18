@@ -1,0 +1,29 @@
+.follower-suggestions {
+  margin-top: 30px;
+  background: #f5f5f5;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.suggestion-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.suggestion-item img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.suggestion-item button {
+  margin-left: auto;
+  padding: 4px 8px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

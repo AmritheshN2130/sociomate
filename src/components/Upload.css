@@ -1,0 +1,95 @@
+.upload-page {
+  background: linear-gradient(to bottom, #e0f7fa, #fefefe);
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.upload-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #00796b;
+  color: white;
+  padding: 12px 20px;
+}
+
+.upload-header h2 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.upload-header span {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.upload-header-icons span {
+  margin-left: 15px;
+}
+
+.upload-form-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.preview-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+textarea,
+input[type="text"],
+input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.upload-button {
+  padding: 10px;
+  background: #00796b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.upload-button:hover {
+  background: #004d40;
+}
+
+/* ✅ Upload success popup */
+.upload-success-popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+  font-weight: bold;
+  z-index: 999;
+  animation: fadeInOut 2s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(20px); }
+  20% { opacity: 1; transform: translateY(0); }
+  80% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(20px); }
+}

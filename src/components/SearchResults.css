@@ -1,0 +1,31 @@
+.search-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 30px;
+}
+
+.search-result {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+  padding: 12px;
+  background: #f4f4f4;
+  border-radius: 8px;
+}
+
+.search-result img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.search-result button {
+  margin-left: auto;
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
